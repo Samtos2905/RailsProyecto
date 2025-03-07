@@ -26,3 +26,7 @@ jobs:
       run: |
         bin/rails db:create
         bin/rails db:schema:load
+    
+    - name: Run tests
+      run: |
+        bin/rails test
